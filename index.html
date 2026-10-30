@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive"><meta name="theme-color" content="#090711"><title>Among the Stars</title>
+<link rel="stylesheet" href="styles.css"><script src="config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script defer src="app.js"></script></head>
+<body><div class="stars"></div><main class="shell">
+<header class="top"><a class="brand" href="./">✦ Among the Stars</a><select id="language" aria-label="Language"><option value="en">English</option><option value="ar">العربية</option><option value="es">Español</option><option value="fr">Français</option></select></header>
+<section class="panel" id="password-panel"><p class="eyebrow">A little place among the stars</p><h1 data-i18n="welcome">You found your way here.</h1><p data-i18n="intro">Enter the shared password to continue.</p>
+<form id="password-form"><label for="site-password" data-i18n="password">Shared password</label><input id="site-password" type="password" required autocomplete="current-password"><button class="primary" type="submit" data-i18n="continue">Continue ✦</button></form><p class="notice" id="password-error" role="alert"></p></section>
+<section class="panel hidden" id="name-panel"><p class="eyebrow">✧ ✧ ✧</p><h1 data-i18n="yourName">What should we call you?</h1><p data-i18n="nameHint">A nickname is perfect.</p><form id="name-form"><label for="nickname" data-i18n="nickname">Nickname</label><input id="nickname" maxlength="60" required><button class="primary" type="submit" data-i18n="start">Let’s begin</button></form></section>
+<section class="panel hidden" id="questions-panel"><p class="eyebrow" data-i18n="forYou">A few questions, just for you</p><h1 id="hello-title"></h1><p data-i18n="optional">Every question is optional. Skip anything you don’t feel like answering.</p><form id="answers-form"><div id="questions"></div><button class="primary" type="submit" data-i18n="send">Send my answers ✦</button></form><p class="notice" id="submit-error" role="alert"></p></section>
+<section class="panel hidden center" id="thanks-panel"><div class="orbit">✦</div><h1 data-i18n="thanks">Your answers have found their way among the stars.</h1><p>Your answers have found their way among the stars. Thank you for being here!</p></section>
+<footer>Made with a little stardust ✦ · <a href="admin.html">Owner</a></footer></main></body></html>
