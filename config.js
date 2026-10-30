@@ -1,5 +1,5 @@
-// إعدادات عامة فقط. لا تضع مفاتيح server/service-role هنا.
+// Public configuration only. Never put secret keys here.
 window.AMONG_CONFIG = {
-  SUPABASE_URL: "https://YOUR_PROJECT_REF.supabase.co",
-  SUPABASE_ANON_KEY: "YOUR_PUBLIC_ANON_OR_PUBLISHABLE_KEY"
+  SUPABASE_URL: "https://irgobhkjoscjlynlsprz.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_GT_-bp6UKanvLtYplKPoQA_YNPOCX-c"
 };
